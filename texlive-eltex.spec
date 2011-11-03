@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/eltex
+# catalog-date 2009-11-09 17:57:09 +0100
+# catalog-license lppl
+# catalog-version 2.0
 Name:		texlive-eltex
 Version:	2.0
 Release:	1
@@ -50,6 +56,7 @@ circuit symbols accord to the various parts of the standard IEC
 %doc %{_texmfdistdir}/doc/latex/eltex/man_en.tex
 %doc %{_texmfdistdir}/doc/latex/eltex/pri_cz.pdf
 %doc %{_texmfdistdir}/doc/latex/eltex/pri_cz.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ circuit symbols accord to the various parts of the standard IEC
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
