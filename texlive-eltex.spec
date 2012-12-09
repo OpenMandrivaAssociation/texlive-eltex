@@ -57,3 +57,17 @@ circuit symbols accord to the various parts of the standard IEC
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0-2
++ Revision: 751409
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0-1
++ Revision: 718324
+- texlive-eltex
+- texlive-eltex
+- texlive-eltex
+- texlive-eltex
+
