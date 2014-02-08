@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-eltex
 Version:	2.0
-Release:	2
+Release:	3
 Summary:	Simple circuit diagrams in LaTeX picture mode
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eltex
