@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Simple circuit diagrams in LaTeX picture mode
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eltex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eltex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eltex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eltex.doc.r%{version}.tar.xz
